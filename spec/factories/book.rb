@@ -1,7 +1,6 @@
 FactoryBot.define do
-    factory :item do
+    factory :book do
       name { Faker::Name.unique.name }
-      done false
-      todo_id nil
     end
 end
+
